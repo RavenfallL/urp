@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云南大学urp系统</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <script src="css/jquery-3.1.1.min.js"></script>
+<style>
+    #header
+    {
+        background-image: url("./image/urp素材1.jpg");
+        height: 440px;
+    }
+    #logo
+    {
+        background-image: url("./image/urplogo.png");
+        height: 110px;
+        margin-left: -200px;
+
+    }
+    #topmenu
+    {
+        background-color:rgba(21,21,21,0.60);
+        height:65px;
+        text-align:center;
+        padding-top: 20px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+       letter-spacing: 30px;
+        font-size: 1.4em;
+    }
+    #middile
+    {
+        height:325px;
+        background-color: rgba(192,191,175,0.22);
+    }
+   #left
+   {
+       width:38%;
+       float: left;
+       text-align: center;
+       margin-left: 12%;
+   }
+    #right
+    {
+        width:38%;
+        float: right;
+        text-align: center;
+        margin-right:12%;
+
+    }
+    li
+    {
+        font-family: 方正姚体;
+        font-size: medium;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    #app
+    {
+        text-align: center;
+        height: 325px;
+
+    }
+    #url
+    {
+        font-family: 华文细黑;
+        font-size: 1.1em;
+        word-spacing: 50px;
+        background-color:rgba(192,191,175,0.40);
+        height:30px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 80px;
+    }
+    i
+    {
+        border: solid 2px grey;
+        border-radius:50% ;
+        width: 92px;
+        height: 92px;
+        padding-left: 0px;
+        padding-top: 30px;
+        align:center;
+
+
+    }
+    .app .校历
+    {
+        font-weight: bold;
+        margin-top:3px;
+        color: #e23636;
+        margin-left:5px;
+
+    }
+    .app .人才
+    {
+        font-weight: bold;
+        margin-top:3px;
+        color: #e23636;
+        margin-left:5px;
+
+    }
+    .app .课表
+    {
+        font-weight: bold;
+        margin-top:3px;
+        color: #e23636;
+        margin-left:5px;
+
+    }
+    #foot
+    {
+        background-color: #353447;
+        color: #fff9fc;
+        text-align: center;
+        height: 60px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 10px;
+    }
+
+</style>
+</head>
+<body>
+<div id="box" class="container-fluid">
+<div class="row" id="header" style="position: relative">
+    <div class="row" id="logo"></div>
+    <div  id="topmenu">
+        <button type="button" class="btn-danger" >本科生登录</button>
+        <button type="button" class="btn-primary">本科教师登录</button>
+        <button type="button" class="btn-warning">研究生登录</button>
+    </div>
+</div>
+<div id="middile" class="container" >
+    <div id="left">
+        <h2 style="color: red;font-family: 方正姚体  ";><b>通知公告<hr style="width:55%;background-color: #848484;height: 1px"></b></h2>
+        <ul style="text-align: left;line-height: 2em"><li><a href="">[2016-10-15] 关于调整呈贡校区部分计算机上机课教室的通知</a></li>
+        <li><a href="">[2016-09-29] 因9月24日国家司法考试呈贡校区停课的《军事理论》调整补课时间的通知</a></li>
+        <li><a href="">[2016-09-29] 开展晨读和晚自习的倡议书</a></li>
+        <li><a href="">[2016-09-18] 关于9月23、24、25日呈贡校区部分课程调停课的通知</a></li>
+        <li><a href="">[2016-09-05] 关于调整原校本部文渊楼212教室周六1、2节《考研英语》开课校区的通知</a></li>
+        </ul>
+    </div>
+    <div id="right">
+<h2 style="color: red;font-family: 方正姚体 "><b>系统帮助<hr style="width:55%;background-color: #848484;height: 1px"></b></h2>
+        <img src="image/系统.jpg" usemap="#map">
+        <map name="map">
+            <area shape="rect" coords="72,18,233,54" href="http://www.baidu.com">
+            <area shape="rect" coords="265,18,419,58" href="http://www.baidu.com">
+            <area shape="rect" coords="77,72,233,105" href="http://www.baidu.com">
+        </map>
+
+    </div>
+</div>
+<div class="row" id="app">
+    <h2 style="color: red;font-family: 方正姚体 "><b>公众应用<hr style="width:20%;background-color: #848484;height: 1px"></b></h2>
+    <div>
+        <div class="app col-sm-4 text-center">
+            <a href="http://202.203.209.96/v5/#/ynuCalendar">
+                <i class="fa fa-calendar fa-2x"></i>
+                <div class="校历">校 &nbsp;&nbsp;历</div>
+            </a>
+        </div>
+
+        <div class="app col-sm-4 text-center">
+            <a href="http://202.203.209.96/v5/#/TeachPlan">
+                <i class="fa fa-tasks fa-2x"></i>
+                <div class="人才">人才培养方案</div>
+            </a>
+        </div>
+
+        <div class="app col-sm-4 text-center">
+            <a href="http://202.203.209.96/v5/#/teachClassOverview">
+                <i class="fa fa-list-alt fa-2x"></i>
+                <div class="课表">本科课表总览</div>
+            </a>
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="row" id="url">
+友情链接
+    <a href="">云南大学</a>
+    <a href="">云南大学图书馆</a>
+    <a href="">云南大学Elearning</a>
+    <a href="">学信网（学籍查询）</a>
+    <a href="">教育部考试查询</a>
+    <a href="">英语四六级成绩查询</a>
+</div>
+<div class="row" id="foot">
+<p>Copyright © 2014 云南大学教务处 地址：昆明市翠湖北路2号  联系电话：0871-65931647（呈贡教学办公室） 0871-65033818（本部教务科）
+    技术支持：云南大学信息技术研究所 联系电话：0871-65031117</p>
+</div>
+</body>
+</html>
